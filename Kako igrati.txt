@@ -1,0 +1,36 @@
+Igraè: loptica koja se skakanjem penje po platformama i skuplja dijamante
+
+Kretanje: space za skakanje, strelice za lijevo i desno
+
+Cilj igre: ostvariti što veæi broj bodova i popeti se na vrh rang ljestvice
+
+Kraj igre:
+	-ako igraè ispadne ispod donjeg ruba ekrana ili ostvari negativne bodove ( bomba, -1000)
+	-ako je igra završila otvorit æe se menu gdje je moguæe odabrati spremanje scora, ili restart,ili izlaz iz igrice
+Gems:
+	obièni dijamanti donose igraèu 10 bodova,
+	srcoliki dijamanti donose 500 bodova, 
+	ako igraè pokupi bombu to mu odnosi 1000 bodova
+Platforme: 
+	2 vrste: jedne se kreæu prema dolje, druge prema gore
+	-platforme koje idu prema dolje: skokom na ovakvu platformu igraè dobije 100 bodova, ako
+	padne s nje gubi 100 bodova, takoðer skokom na ovakvu platformu broje se prijeðeni katovi
+	-platforme koje idu prema gore: skokom na njih igraè ne dobiva nikakve bodove i njima se ne 
+        broji broj prijeðenih katova
+	-nakon odreðenog broja katova mijenjaju se boje platformi koje idu prema gore(kat 50,150,300)
+Štoperica:
+	-pokreæe se nakon što igraè dosegne na Y osi 225
+	-svako 30 sekundi štoperica ubrzava kretanje platformi
+	-od 30s do 20s štoperice padaju bombe
+	-od 10s do 0s štoperice padaju extra gems (+500)
+                 -od 10s do 0s pokreæe se magnet koji privlaèi sve dijamante igraèu(bodovi za svaki gem se tada smanjuju upola), osim extra gems
+Spremanje bodova:
+	-ispisuju se iz datoteke samo igraèi s 10 najviših rezultata
+	-igraè ne može spremiti negativan rezultat
+	-ako igraè ne upiše ime prilikom spremanja dodijeli mu se random (npr. Player123)
+Opcije:
+	-prilikom pokretanja igraè može odabrati boju loptice (plava,bijela)
+	-ako nije ništa odabrao onda je plava loptica
+Pauza:
+	-tijekom igre pritiskom na tipku "P" otvara se Menu
+	-igraè može odabrati da se vrati na igru i nastavi gdje je stao ili da izaðe iz igre

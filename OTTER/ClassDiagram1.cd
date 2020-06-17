@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OTTER.BGL" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KaTHIBhCwDhPCmwAJJiaYkAyAQRtYSkroqSCqQhIBwA=</HashCode>
+      <FileName>BGL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.Brick">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Brick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.Collectables">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collectables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.FinishMenu" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAkCAAAAgABACIAAIiACAEIAAgQAACCABAAAA=</HashCode>
+      <FileName>FinishMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.SpriteList&lt;T&gt;" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAABAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.Game" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAggAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>GameClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.GameOptions" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAQAAABAAAARAABAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>GameOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.Gem">
+    <Position X="2.5" Y="5" Width="1.5" />
+    <InheritanceLine Type="OTTER.Collectables" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="5" Y="3.625" />
+        <Point X="3.25" Y="3.625" />
+        <Point X="3.25" Y="5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.ExtraGem">
+    <Position X="5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.FalseGem">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="OTTER.Collectables" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="3.5" />
+        <Point X="6.691" Y="3.5" />
+        <Point X="6.691" Y="3.465" />
+        <Point X="8.25" Y="3.465" />
+        <Point X="8.25" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.HowTo" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>3gAAIpAAACAAABAAAACAQAACAAAABAAAAAgAAQBAAAA=</HashCode>
+      <FileName>HowTo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.Menu" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgAAARECAAMAiAAACIAAICACAAAAAAACAACAAAIAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.OptionsMenu" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAIAAQECEAAIAAAADAACQCACA4AAAAAHAAAgAQAAA=</HashCode>
+      <FileName>OptionsMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.Player">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAABgAAAAIAAgAAAAIAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.Program" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.Scores" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJACAAEAACAAABAAABCAAAAiAAAYAAAAEGAAAAAYAAA=</HashCode>
+      <FileName>Scores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.Sensing" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAgEAAAAAAAAEAAAAgAAAAJAAAA=</HashCode>
+      <FileName>Sensing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.SpriteCostume" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQABAAAAAAAAQAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.Sprite" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="OTTER.Sprite.RotationStylesType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="OTTER.Sprite.DirectionsType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAFEEDgAEg4yIZCeCAJYEBAACwFAiAAAADggkIiZGg=</HashCode>
+      <FileName>Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.StartMenu" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAECQAEAAAAACAAAACACAIAAAAAGAACAAABAA=</HashCode>
+      <FileName>StartMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.Properties.Resources" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQCCAAAAAACBACBUAAQAQAAAAAAAAAAAAAAQIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTTER.Properties.Settings" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
